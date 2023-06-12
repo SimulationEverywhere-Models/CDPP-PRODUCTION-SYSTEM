@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> rmSource@rmSource&#xd;</components>
+    <components> productionBuffer@productionBuffer&#xd;</components>
+    <components> production@production&#xd;</components>
+    <out> rmCount&#xd;</out>
+    <out> finishedProduct&#xd;</out>
+    <out> totalFinishedProduct&#xd;</out>
+    <Link> out@rmSource in@productionBuffer&#xd;</Link>
+    <Link> rmCount@rmSource rmCount&#xd;</Link>
+    <Link> mg@productionBuffer mg@rmSource&#xd;</Link>
+    <Link> out@productionBuffer in@production&#xd;</Link>
+    <Link> done@production done@productionBuffer&#xd;</Link>
+    <Link> out@production finishedProduct&#xd;</Link>
+    <Link> fpCount@production totalFinishedProduct&#xd;</Link>
+  </top>
+  <rmSource>
+    <preparation> 00:00:01:000&#xd;</preparation>
+  </rmSource>
+  <productionBuffer>
+    <preparation> 00:00:01:000&#xd;</preparation>
+  </productionBuffer>
+  <production>
+    <preparation> 00:00:08:000&#xd;</preparation>
+  </production>
+</CDPlusPlus_Builder_Version_1.0.0>

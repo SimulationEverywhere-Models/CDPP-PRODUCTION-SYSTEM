@@ -1,0 +1,9 @@
+[Top]
+in:mg 
+out:out rmCount 
+state:generate wait 
+initial:generate
+int:generate wait out!1
+ext:wait generate mg?1
+generate:00:00:00:00
+wait:infinite

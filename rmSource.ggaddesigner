@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <GGADAtomicModelType xmi:id="_PWgs4SysEeG4LcNMm8eU3w" sourceFileRelativePath="Top.cdd" initialState="_am-7kCysEeG4LcNMm8eU3w">
+    <ports xmi:type="OutputAtomicPort" xmi:id="_p5qmACytEeG4LcNMm8eU3w" portName="out" portType="OUTPUT_PORT"/>
+    <ports xmi:type="OutputAtomicPort" xmi:id="_xU5EoCyxEeG4LcNMm8eU3w" portName="rmCount" portType="OUTPUT_PORT"/>
+    <ports xmi:type="InputAtomicPort" xmi:id="__4KnMCy5EeG4LcNMm8eU3w" portName="mg"/>
+    <states xmi:type="State" xmi:id="_am-7kCysEeG4LcNMm8eU3w" name="generate">
+      <timeAdvance xmi:type="TimeAdvance" xmi:id="_am-7kSysEeG4LcNMm8eU3w"/>
+    </states>
+    <states xmi:type="State" xmi:id="_dTY3cCysEeG4LcNMm8eU3w" name="wait">
+      <timeAdvance xmi:type="TimeAdvance" xmi:id="_dTY3cSysEeG4LcNMm8eU3w" hour="99" minute="99" second="99" millisecond="99" infinite="true"/>
+    </states>
+    <links xmi:type="InternalTransition" xmi:id="_PGTRMCytEeG4LcNMm8eU3w" target="_dTY3cCysEeG4LcNMm8eU3w" source="_am-7kCysEeG4LcNMm8eU3w"/>
+    <links xmi:type="ExternalTransition" xmi:id="_T0WUsCytEeG4LcNMm8eU3w" target="_am-7kCysEeG4LcNMm8eU3w" source="_dTY3cCysEeG4LcNMm8eU3w">
+      <condition xmi:type="Condition" xmi:id="_orHSwCyuEeG4LcNMm8eU3w">
+        <expression xmi:type="InputAtomicPort" xmi:id="_jSaIsCyuEeG4LcNMm8eU3w" portName="mg"/>
+        <value xmi:type="Constant" xmi:id="_orHSwSyuEeG4LcNMm8eU3w"/>
+      </condition>
+    </links>
+  </GGADAtomicModelType>
+  <notation:Diagram xmi:id="_PXaEwCysEeG4LcNMm8eU3w" type="DEVSGGAD" element="_PWgs4SysEeG4LcNMm8eU3w" name="rmSource.ggaddesigner" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_anR2gCysEeG4LcNMm8eU3w" type="2001" element="_am-7kCysEeG4LcNMm8eU3w">
+      <children xmi:type="notation:Node" xmi:id="_anbngCysEeG4LcNMm8eU3w" type="5001"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_anR2gSysEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_anR2giysEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_anR2gyysEeG4LcNMm8eU3w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_anR2hCysEeG4LcNMm8eU3w" x="183" y="168"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_dTY3ciysEeG4LcNMm8eU3w" type="2001" element="_dTY3cCysEeG4LcNMm8eU3w">
+      <children xmi:type="notation:Node" xmi:id="_dTY3dyysEeG4LcNMm8eU3w" type="5001"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_dTY3cyysEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_dTY3dCysEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_dTY3dSysEeG4LcNMm8eU3w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTY3diysEeG4LcNMm8eU3w" x="492" y="169"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_p5qmASytEeG4LcNMm8eU3w" type="2003" element="_p5qmACytEeG4LcNMm8eU3w">
+      <children xmi:type="notation:Node" xmi:id="_p5qmBiytEeG4LcNMm8eU3w" type="5003"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5qmAiytEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_p5qmAyytEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_p5qmBCytEeG4LcNMm8eU3w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5qmBSytEeG4LcNMm8eU3w" x="312"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xU5EoSyxEeG4LcNMm8eU3w" type="2003" element="_xU5EoCyxEeG4LcNMm8eU3w">
+      <children xmi:type="notation:Node" xmi:id="_xU5EpiyxEeG4LcNMm8eU3w" type="5003"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_xU5EoiyxEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_xU5EoyyxEeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_xU5EpCyxEeG4LcNMm8eU3w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xU5EpSyxEeG4LcNMm8eU3w" x="194"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="__4KnMSy5EeG4LcNMm8eU3w" type="2002" element="__4KnMCy5EeG4LcNMm8eU3w">
+      <children xmi:type="notation:Node" xmi:id="__4KnNiy5EeG4LcNMm8eU3w" type="5002"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="__4KnMiy5EeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="__4KnMyy5EeG4LcNMm8eU3w"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="__4KnNCy5EeG4LcNMm8eU3w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4KnNSy5EeG4LcNMm8eU3w" x="456"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_PXaEwSysEeG4LcNMm8eU3w"/>
+    <edges xmi:type="notation:Edge" xmi:id="_PGTRMSytEeG4LcNMm8eU3w" type="4002" element="_PGTRMCytEeG4LcNMm8eU3w" source="_anR2gCysEeG4LcNMm8eU3w" target="_dTY3ciysEeG4LcNMm8eU3w">
+      <styles xmi:type="notation:ConnectorStyle" xmi:id="_PGTRMiytEeG4LcNMm8eU3w" routing="Rectilinear"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_PGTRMyytEeG4LcNMm8eU3w" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PGTRNCytEeG4LcNMm8eU3w" points="[1, 13, -308, 3]$[1, 54, -308, 44]$[310, 54, 1, 44]$[310, 14, 1, 4]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PGTRNSytEeG4LcNMm8eU3w" id="(0.4875,0.8375)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PGTRNiytEeG4LcNMm8eU3w" id="(0.4875,0.95)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_T0WUsSytEeG4LcNMm8eU3w" type="4001" element="_T0WUsCytEeG4LcNMm8eU3w" source="_dTY3ciysEeG4LcNMm8eU3w" target="_anR2gCysEeG4LcNMm8eU3w">
+      <styles xmi:type="notation:ConnectorStyle" xmi:id="_T0WUsiytEeG4LcNMm8eU3w" routing="Rectilinear"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_T0WUsyytEeG4LcNMm8eU3w" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T0WUtCytEeG4LcNMm8eU3w" points="[5, -6, 315, -11]$[5, -42, 315, -47]$[-304, -42, 6, -47]$[-304, -7, 6, -12]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T0WUtSytEeG4LcNMm8eU3w" id="(0.4375,0.075)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T0WUtiytEeG4LcNMm8eU3w" id="(0.425,0.15)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

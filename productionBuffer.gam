@@ -1,0 +1,29 @@
+# Filename:productionBuffer.gam
+# export classpath:
+# Title:productionBufferType
+# background:
+# cant units:0
+# Cant Ports:4
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:5
+# 	Port ID:in
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:6
+# 	Port ID:done
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:7
+# 	Port ID:out
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:8
+# 	Port ID:mg
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# Cant Links:0
+# Initial Name:
+# Vars cant:0

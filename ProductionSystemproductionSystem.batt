@@ -1,0 +1,4 @@
+cd /D "C:\eclipse\CD++Builder Example Workspace\ProductionSystem"
+"C:/eclipse/CD++Builder Example Workspace/ProductionSystem/simu.exe"  -m"productionSystem.ma" -o"productionSystemOUT_1.out" -l"productionSystemLOG_1.log" -t"00:10:00:000" 
+rem 
+pause

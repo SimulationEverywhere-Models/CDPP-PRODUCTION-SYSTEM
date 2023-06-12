@@ -1,0 +1,16 @@
+[Top]
+in:in 
+out:mg out 
+state:sending receiving requesting waiting 
+initial:sending
+ext:requesting receiving in?1
+ext:waiting sending done?1
+int:receiving waiting 
+int:sending waiting 
+int:waiting requesting 
+ext:waiting receiving in?1
+ext:requesting sending done?1
+sending:00:00:01:00
+receiving:00:00:00:00
+requesting:infinite
+waiting:infinite
